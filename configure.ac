@@ -1026,7 +1026,7 @@ if test "x$ARIA2_STATIC" = "xyes"; then
     ;;
 
     *)
-      EXTRALIBS="$EXTRALIBS -lpthread -ldl -lrt"
+      EXTRALIBS="$EXTRALIBS -ldl"
     ;;
   esac
 fi
